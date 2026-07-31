@@ -1,0 +1,17 @@
+{
+ "request": "https://cryptoboss.space/api/price?coins=bitcoin,ethereum",
+ "http_status": 200,
+ "prices": {
+  "bitcoin": {
+   "usd": 64304.5,
+   "usd_24h_change": 1071641.6666666665,
+   "source": "kraken"
+  },
+  "ethereum": {
+   "usd": 1906.32,
+   "usd_24h_change": 190532,
+   "source": "kraken"
+  }
+ },
+ "source": "multi-source"
+}
