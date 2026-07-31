@@ -1,0 +1,10 @@
+{
+ "summary": "Original public runx skill example repo created under elevasyncsolutions-jpg: a portable SKILL.md contract wrapping the live CryptoBoss multi-source price API, with README, usage instructions, and a captured live API response as proof the underlying service works.",
+ "observations": [
+  "Repo created and pushed at github.com/elevasyncsolutions-jpg/runx-crypto-price-skill (public, reachable by any stranger, no auth required)",
+  "SKILL.md follows the runx portable skill contract: frontmatter with name/description/runx tags/links/license, when-to-use, inputs, procedure, output format, safety rules, and success criteria",
+  "Skill is read-only by design: no API keys, no writes, no signing; authority is bounded to a single GET request per runx doctrine",
+  "Live proof captured during build: GET https://cryptoboss.space/api/price?coins=bitcoin,ethereum returned HTTP 200 with BTC $64304.5 and ETH $1906.32 from source kraken",
+  "Delivered artifacts: SKILL.md (contract), README.md (usage), report.md (delivery report), evidence.json (this file); provenance commit b7a7c4094dfa722709925a73dc73fa3a6178c5e8"
+ ]
+}
