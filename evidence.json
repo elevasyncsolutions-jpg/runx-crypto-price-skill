@@ -1,10 +1,22 @@
 {
+ "claim_type": "relevant_public_example_repo",
+ "public_url": "https://github.com/elevasyncsolutions-jpg/runx-crypto-price-skill",
+ "runx_link_found": true,
+ "runx_links": [
+  "https://github.com/runxhq/runx",
+  "https://runx.ai"
+ ],
  "summary": "Original public runx skill example repo created under elevasyncsolutions-jpg: a portable SKILL.md contract wrapping the live CryptoBoss multi-source price API, with README, usage instructions, and a captured live API response as proof the underlying service works.",
+ "audience": "Future runx contributors and agent developers looking for a minimal, real, read-only example of the portable skill contract (frontmatter, when-to-use, inputs, procedure, output, safety rules, success criteria).",
+ "why_allowed": "The repo is an original public example that mentions runx (README links to https://runx.ai and https://github.com/runxhq/runx), lives on a public venue where project sharing is allowed, and is useful to a maintainer or future contributor as a copyable skill pattern.",
  "observations": [
+  "claim_type: relevant_public_example_repo",
+  "public_url: https://github.com/elevasyncsolutions-jpg/runx-crypto-price-skill",
+  "runx_link_found: true (README and SKILL.md link to https://github.com/runxhq/runx and https://runx.ai)",
   "Repo created and pushed at github.com/elevasyncsolutions-jpg/runx-crypto-price-skill (public, reachable by any stranger, no auth required)",
   "SKILL.md follows the runx portable skill contract: frontmatter with name/description/runx tags/links/license, when-to-use, inputs, procedure, output format, safety rules, and success criteria",
-  "Skill is read-only by design: no API keys, no writes, no signing; authority is bounded to a single GET request per runx doctrine",
+  "Skill is read-only by design: no API keys, no writes, no signing; authority bounded to a single GET request per runx doctrine",
   "Live proof captured during build: GET https://cryptoboss.space/api/price?coins=bitcoin,ethereum returned HTTP 200 with BTC $64304.5 and ETH $1906.32 from source kraken",
-  "Delivered artifacts: SKILL.md (contract), README.md (usage), report.md (delivery report), evidence.json (this file); provenance commit b7a7c4094dfa722709925a73dc73fa3a6178c5e8"
+  "Provenance commit b7a7c4094dfa722709925a73dc73fa3a6178c5e8; artifacts: SKILL.md, README.md, report.md, evidence.json"
  ]
 }
